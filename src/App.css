@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.record-button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 0 10px;
+}
+
+.stop-button {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  margin: 0 10px;
+}
+
+.record-button.active,
+.stop-button.active {
+  background-color: #d9534f;
+}
+
+.clear-button {
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 0 10px;
+}
